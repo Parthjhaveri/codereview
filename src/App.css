@@ -1,0 +1,198 @@
+html, body {
+  margin: 0px;
+  padding: 0px;
+  /*font-family: 'Ubuntu', sans-serif;*/
+  font-family: 'Roboto Mono', monospace;
+}
+
+.dashboard {
+  width: 25%;
+  height: auto;
+  background-color: silver;
+  display: inline-block;
+  float: left;
+  padding: 1%;
+  z-index: 10;
+  text-align: left;
+  overflow: hidden;
+}
+
+.homepage {
+  width: 100%;
+  height: 900px;
+  background-color: #222b3d;
+  display: inline-block;
+  float: right;
+}
+
+.placeholderinstruction {
+  margin-top: 20%;
+  color: silver;
+  font-weight: lighter;
+}
+
+.profilepic {
+  width: 120px;
+  height: 150px;
+  border-radius: 5px;
+  background-image: url('../images/pp.jpg');
+  background-size: 125%;
+  display: inline-block;
+  overflow: hidden;
+  float: left;
+  margin-bottom: 10px;
+  margin-top: 5%;
+}
+
+#pjsub {
+  list-style: none;
+  font-size: 12px;
+  text-align: left;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+
+.lineitem {
+  margin-bottom: 15px;
+  float: left;
+  width: 200px;
+  margin-left: -25px;
+}
+
+.gameone {
+  width: 100%;
+  height: 100px;
+  border: 1px solid #1a1a1a;
+  border-radius: 10px;
+  margin-top: 20%;
+  font-weight: bolder;
+  font-size: 40px;
+  padding: 20px;
+  transition: 0.4s;
+}
+
+.gameone:hover {
+  background-color: #1a1a1a;
+  color: white;
+  transition: 0.4s;
+}
+
+.gametwo {
+  width: 100%;
+  height: 100px;
+  border: 1px solid #1a1a1a;
+  border-radius: 10px;
+  margin-top: 20%;
+  font-weight: bolder;
+  font-size: 40px;
+  padding: 20px;
+}
+
+.gametwo:hover {
+  background-color: #1a1a1a;
+  color: white;
+  transition: 0.4s;
+}
+
+.gamethree {
+  width: 100%;
+  height: 100px;
+  border: 1px solid #1a1a1a;
+  border-radius: 10px;
+  margin-top: 20%;
+  font-weight: bolder;
+  font-size: 40px;
+  padding: 20px;
+}
+
+.gamethree:hover {
+  background-color: #1a1a1a;
+  color: white;
+  transition: 0.4s;
+}
+
+.addbox {
+  width: 100%;
+  height: 100px;
+  border: 1px dashed #1a1a1a;
+  border-radius: 10px;
+  margin-top: 20%;
+  font-weight: bolder;
+  font-size: 40px;
+  padding: 20px;
+}
+
+.widget {
+  width: 50%;
+  height: 40px;
+  border: 1px solid white;
+  background-color: #1a1a1a;
+  margin-top: 20px;
+  display: none;
+}
+
+.widgettwo {
+  width: 50%;
+  height: 40px;
+  border: 1px solid white;
+  background-color: #1a1a1a;
+  margin-top: 20px;
+  display: none;
+}
+
+.widgetthree {
+  width: 50%;
+  height: 40px;
+  border: 1px solid white;
+  background-color: #1a1a1a;
+  margin-top: 20px;
+  display: none;
+}
+
+.backtogames {
+  display: none;
+}
+
+.backtogames:hover {
+  cursor: pointer;
+}
+
+.gameone:hover {
+  cursor: pointer;
+}
+
+.gametwo:hover {
+  cursor: pointer;
+}
+
+.gamethree:hover {
+  cursor: pointer;
+}
+
+
+
+
+
+@media only screen and (max-width: 900px) {
+  
+  .gameone {
+    font-size: 20px;
+  }
+
+  .gametwo {
+    font-size: 20px;
+  }
+
+  .gamethree {
+    font-size: 20px;
+  }
+
+   .addbox {
+      font-size: 20px;
+    }
+
+}
+
+
+
